@@ -8,6 +8,6 @@ Jorge, Chardac, Poncet and Bartolo;
 Please refer to the README inside each directory for more details.
 
 ## Contents
-* `code`: Codes for the Monte Carlo and finite element simulations
-* `data_analysis`: Scripts for data analysis of experiments and simulations
-* `figs_data`: Final data for the figures of the article
+* `code/`: Codes for the Monte Carlo and finite element simulations
+* `data_analysis/`: Scripts for data analysis of experiments and simulations
+* `figs_data/`: Final data for the figures of the article
