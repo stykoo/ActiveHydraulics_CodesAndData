@@ -15,7 +15,6 @@ run `python3 main_simu_oblong_parallel_v2.py`.
 - `simu_oblong_parallel_v2.py`:
 Main file to launch finite element simulations of the Toner-Tu equations
 in oblong geometry.
-the honeycomb lattice.
 - `sub_simu_oblong_parallel_v2.py`:
 Module for finite element simulations of the Toner-Tu equations
 in oblong geometry.
