@@ -8,7 +8,7 @@ See the README files in the subdirectories for more details.
 the honeycomb lattice.
 - `IsingAF/`: Monte-Carlo simulation of the anti-ferromagnetic Ising model
 on the triangular lattice.
-- ``FiniteElement/`: Finite element simulation of the Toner-Tu equations in
+- `FiniteElement/`: Finite element simulation of the Toner-Tu equations in
 an oblong geometry, using [FEniCS](https://fenicsproject.org/).
 
 ### Licence
