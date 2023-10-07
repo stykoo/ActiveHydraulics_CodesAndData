@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 
 """
-Run FEniCS code for finite element simulations of Toner-Tu equations
-in oblong geometry.
+Use the python interface to FEniCS for finite element simulations of
+the Toner-Tu equations in oblong geometry.
 
 Authors:
     Camille Jorge <camille.jorge@ens-lyon.fr>

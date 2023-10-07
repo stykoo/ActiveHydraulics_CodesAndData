@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-Launch finite element simulations of Toner-Tu equations in oblong geometry.
+Launch finite element simulations of the Toner-Tu equations in oblong geometry.
 
 Authors:
     Camille Jorge <camille.jorge@ens-lyon.fr>

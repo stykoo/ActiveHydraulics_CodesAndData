@@ -1,5 +1,5 @@
 """
-Sub module for  finite element simulations of Toner-Tu equations
+Module for finite element simulations of the Toner-Tu equations
 in oblong geometry.
 
 Author:

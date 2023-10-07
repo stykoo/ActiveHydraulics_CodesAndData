@@ -3,7 +3,7 @@
 Codes for Monte-Carlo and finite element simulations.
 See the README files in the subdirectories for more details.
 
-### Contents
+### Content
 - `BlumeCappelKagome/`: Monte-Carlo simulation of our custom spin model on
 the honeycomb lattice.
 - `IsingAF/`: Monte-Carlo simulation of the anti-ferromagnetic Ising model
