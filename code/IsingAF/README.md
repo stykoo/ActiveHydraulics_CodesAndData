@@ -35,13 +35,14 @@ Below, `output` is the string parameter given with `--output`.
 - `output_nloops.dat` (if `--obs`): number of loops and number of winding loops
 (each line corresponds to one configuration)
 - `output_len.dat` (if `--obs`): lengths of all the loops that were observed
-- `output_wind.dat` (if `--obs`): windings of all the looops that were observed
+- `output_wind.dat` (if `--obs`): windings of all the loops that were observed
 (1 if the loop winds around the system, 0 otherwise)
-- `output_Rg.dat` (if `--obs`): giration radii of all loops that were observed
+- `output_Rg.dat` (if `--obs`): giration radii of all the loops that were
+observed
 - `output_correl.dat` (if `--obs` and `--correl`): loop correlations:
 distance / number of edges in the same loop at distance / total number of
 edges at distance (each line corresponds to one configuration=
-- `output_spins.dat`` (if `--spins`): spins at each iteration
+- `output_spins.dat` (if `--spins`): spins at each iteration
 (one configuration per line)
 
 ### Dependencies
