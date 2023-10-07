@@ -1,7 +1,8 @@
 ## BlumeCappelKagome 
 
 Monte-Carlo worm simulations of a custom Blume-Cappel-like model on the
-honeycomb lattice. See [[Jorge et al. 2023](https://arxiv.org/abs/2305.06078)
+honeycomb lattice. See
+[[Jorge et al., Nature Physics 2023]](https://arxiv.org/abs/2305.06078)
 for details about the model.
 
 ### Usage
@@ -34,23 +35,27 @@ Options:
   --lattice                  Output lattice
   -v [ --verbose ]           Verbose mode
   -h [ --help ]              Print help message and exit
-
 ```
+
+The conventions in the article and in the code are sightly different.
+The parameters $\beta$, $J_A$ and $J_C$ are expressed in terms of the numerical
+parameters as $\beta J_A = K$ and $J_C = -4J / K$.
 
 #### Output files
 Below, `output` is the string parameter given with `--output`.
 - `output_nloops.dat` (if `--obs`): number of loops / number of winding loops
 / number of sites associated with three 0 / fraction of parallel contacts /
-height of topographic map (for non-periodic simulations only)
-(each line corresponds to one configuration)
+amplitude topographic map height (max minus min,
+for non-periodic simulations only) ; each line corresponds to one configuration
 - `output_len.dat` (if `--obs`): lengths of all the loops that were observed
-- `output_wind.dat` (if `--obs`): windings of all the loops that were observed
+- `output_wind.dat` (if `--obs` and `--periodic`):
+windings of all the loops that were observed
 (1 if the loop winds around the system, 0 otherwise)
 - `output_Rg.dat` (if `--obs`): giration radii of all the loops that were
 observed
 - `output_correl.dat` (if `--obs` and `--correl`): loop correlations:
 distance / number of edges in the same loop at distance / total number of
-edges at distance (each line corresponds to one configuration=
+edges at distance (each line corresponds to one configuration
 - `output_spins.dat` (if `--spins`): spins at each iteration
 (one configuration per line)
 
