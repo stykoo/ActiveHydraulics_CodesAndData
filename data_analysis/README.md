@@ -11,4 +11,4 @@ Scripts for data analysis.
     the nesting of the experimental configurations.
 - `numerics/`
     - `analyze_numerics.py`: Python script to process the output of the
-    ``BlumeCappelKagome` program and make the data for Fig. 3b.
+    `BlumeCappelKagome` program and make the data for Fig. 3b.
